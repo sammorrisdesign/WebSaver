@@ -136,9 +136,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8D255AC50486D3F9007BF209 /* Web */ = {
+		8D255AC50486D3F9007BF209 /* Rothko */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "Web" */;
+			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "Rothko" */;
 			buildPhases = (
 				8D255AC60486D3F9007BF209 /* Headers */,
 				8D255AC90486D3F9007BF209 /* Resources */,
@@ -150,7 +150,7 @@
 			);
 			dependencies = (
 			);
-			name = Web;
+			name = Rothko;
 			productInstallPath = "$(HOME)/Library/Screen Savers";
 			productName = WebSaver;
 			productReference = 8D255AD30486D3F9007BF209 /* WebSaver.saver */;
@@ -175,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D255AC50486D3F9007BF209 /* Web */,
+				8D255AC50486D3F9007BF209 /* Rothko */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +237,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = WebSaver;
+				SDKROOT = macosx10.9;
 				WRAPPER_EXTENSION = saver;
 				ZERO_LINK = YES;
 			};
@@ -253,6 +254,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = WebSaver;
+				SDKROOT = macosx10.9;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -270,7 +272,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
 				PUBLIC_HEADERS_FOLDER_PATH = Info.plist;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx10.9;
 			};
 			name = Debug;
 		};
@@ -286,14 +288,14 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
 				PUBLIC_HEADERS_FOLDER_PATH = Info.plist;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx10.9;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "Web" */ = {
+		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "Rothko" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF7AD72E08BB986600CE4634 /* Debug */,
